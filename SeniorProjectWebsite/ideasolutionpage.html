@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Veterinary Appointment Tracker and Customer Database Application</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
+	<body>
+		<div class="ml-2 mr-2">
+			<nav class="navbar navbar-expand-sm bg-light">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="ideasolutionpage.html">Idea and Solution Descriptions</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="applicationimages.html">Images of Application</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="testresults.html">Test Results</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="jumbotron bg-primary text-light text-center">
+				<h1 class="font-weight-bold text-uppercase">Idea and Solution Descriptions</h1>
+			</div>
+				<div style="background-color:lavenderblush;">
+					<h4 class="text-center">Project Overview</h4>
+					<p>The Veterinary Appointment Tracker and Customer Database Application is created for veterinarian offices to help 
+					complete daily tasks in one application. It includes features such as a schedule for viewing daily appointments, 
+					an add client page to add new clients to the system, a schedule appoinment page to schedule new appointments, and 
+					search functionality to search for clinets in the system. The main purpose for this application is to allow users 
+					to complete daily tasks quickly and easily all in one application. It will cut down on frustration and increase 
+					customer and staff satisfaction.</p>
+					<h4 class="text-center">Problem Solving</h4>
+					<p>This application was created to allow veterinarian offices to eliminate the use of manual files and transfer 
+					everything to be digital. Staff will no longer need to sort through hundreds of manual files as everything will 
+					be stored digitally for their viewing. This will allow tasks to be completed easier and eliminate mistakes that 
+					may be made when using manual files.</p>
+					<h4 class="text-center">Architecture Overview</h4>
+					<p>This application was created in Visual Studio using Windows Forms in the C# language. It contains four different 
+					forms that are each used to complete different tasks. The main form contains the schedule where users can view appointments 
+					for any date that they choose. The Add Client form allows users to add a new client and their pet to the system, so that their 
+					information can be saved and appointments can be scheduled for them. The Schedule Appointment form allows users to schedule new 
+					appointments for customers that are already added to the system. Lastly, the search functionality allows users to input the name of 
+					any client that is already in the system and their information will be displayed. All of the customer, pet, and appointment information 
+					is stored in a SQL database.</p>
+					<h4 class="text-center">Important Code Snipets</h4>
+					<p>Many SQL queries were used in the code to be able to store and retrieve data in the database. For example, the following snippet of 
+					code was used to add the input from the user for the client information into the database:</p>
+					<img class="mx-auto d-block" src="images/codesnipet1.jpg" alt="Input Customer Code Snipet">
+					<br><p>The following code is how the appointments are added to the schedule at the correct room and time, and highlighted different colors:</p>
+					<img class="mx-auto d-block" src="images/codesnipet2.jpg" alt="Appointment Class">
+					<br><h4 class="text-center">Application Flowchart</h4>
+					<img class="mx-auto d-block" src="images/flowchart.jpg" alt="Application Flowchart" width="1500" height="600">
+					<br><h4 class="text-center">Application Wireframe</h4>
+					<img class="mx-auto d-block" src="images/wireframe.jpg" alt="Application Wireframe" width="1200" height="1400">
+					<br><h4 class="text-center">Manuals</h4>
+					<p class="text-center">View the User Training Manual Here:
+						<a href="https://seniorprojectwebsite.s3.us-east-2.amazonaws.com/SeniorProjectWebsite/Maddison+Kiefer+Senior+Project+Activity+8_+User+Training+Manual.pdf">User Training Manual<br></a>
+					</p>
+					<p class="text-center">View the System Maintenance Manual Here:
+						<a href="https://seniorprojectwebsite.s3.us-east-2.amazonaws.com/SeniorProjectWebsite/Maddison+Kiefer+Senior+Project+Activity+9_+System+Maintenance+Manual.pdf">System Maintenance Manual<br></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<br><div class="text-center">
+			<h4>Creator of Application</h4>
+			<p>Author: Maddison Kiefer</p>
+		</div>
+	</footer>
+</html>
